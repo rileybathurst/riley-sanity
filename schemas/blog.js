@@ -9,5 +9,11 @@ export default {
       type: 'string',
       description: 'Make it catchy',
     },
+    {
+      title: 'Slug',
+      name: 'slug',
+      type: 'slug',
+      description: 'lowercase',
+    },
   ]
 }
