@@ -16,6 +16,12 @@ export default {
       description: 'lowercase hyphens only',
     },
     {
+      title: 'Excerpt',
+      name: 'excerpt',
+      type: 'string',
+      description: '120 chars',
+    },
+    {
       title: 'Article',
       name: 'article',
       type: 'text',
