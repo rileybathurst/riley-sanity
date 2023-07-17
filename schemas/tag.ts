@@ -1,11 +1,11 @@
 export default {
-  name: 'blog',
-  title: 'Blog',
+  title: 'Tag',
+  name: 'tag',
   type: 'document',
   fields: [
     {
-      title: 'Title',
-      name: 'title',
+      title: 'Name',
+      name: 'name',
       type: 'string',
       description: 'Make it catchy',
     },
@@ -13,7 +13,7 @@ export default {
       title: 'Slug',
       name: 'slug',
       type: 'slug',
-      description: 'lowercase',
+      description: 'lowercase hyphens only',
     },
-  ]
+  ],
 }
