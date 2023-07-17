@@ -13,4 +13,4 @@ npm run dev
 sanity graphql deploy
 ```
 
-🦄
+🦊
