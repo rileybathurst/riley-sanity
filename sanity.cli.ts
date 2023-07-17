@@ -3,6 +3,14 @@ import {defineCliConfig} from 'sanity/cli'
 export default defineCliConfig({
   api: {
     projectId: 'ftaygkf6',
-    dataset: 'production'
-  }
+    dataset: 'production',
+  },
+  graphql: [
+    {
+      playground: false,
+      tag: 'experiment',
+      // workspace: 'production',
+      id: 'schema-experiment',
+    },
+  ],
 })
