@@ -8,7 +8,7 @@ export default defineCliConfig({
   graphql: [
     {
       playground: true,
-      tag: 'experiment',
+      tag: 'production',
       // workspace: 'production',
       id: 'schema-experiment',
     },
