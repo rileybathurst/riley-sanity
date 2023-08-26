@@ -12,5 +12,3 @@ npm run dev
 ```bash
 sanity graphql deploy
 ```
-
-🦊
