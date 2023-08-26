@@ -1,11 +1,11 @@
 export default {
-  title: 'Blog',
-  name: 'blog',
+  title: 'Client',
+  name: 'client',
   type: 'document',
   fields: [
     {
-      title: 'Title',
-      name: 'title',
+      title: 'Name',
+      name: 'name',
       type: 'string',
       description: 'Make it catchy',
     },
@@ -28,16 +28,21 @@ export default {
       description: 'the post',
     },
     {
-      title: 'Blogs',
-      name: 'blogs',
-      type: 'reference',
-      to: [{type: 'blog'}],
+      title: 'Start',
+      name: 'start',
+      type: 'date',
+      description: 'YYYY-MM-DD',
     },
     {
-      title: 'Tags',
-      name: 'tags',
-      type: 'reference',
-      to: [{type: 'tag'}],
+      title: 'Finish',
+      name: 'finish',
+      type: 'date',
+      description: 'YYYY-MM-DD',
+    },
+    {
+      title: 'Website',
+      name: 'website',
+      type: 'url',
     },
     {
       title: 'Styleguide',

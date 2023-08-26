@@ -1,11 +1,11 @@
 export default {
-  title: 'Blog',
-  name: 'blog',
+  title: 'Styleguide',
+  name: 'styleguide',
   type: 'document',
   fields: [
     {
-      title: 'Title',
-      name: 'title',
+      title: 'Name',
+      name: 'name',
       type: 'string',
       description: 'Make it catchy',
     },
@@ -16,20 +16,13 @@ export default {
       description: 'lowercase hyphens only',
     },
     {
-      title: 'Excerpt',
-      name: 'excerpt',
-      type: 'string',
-      description: '120 chars',
-    },
-    {
       title: 'Article',
       name: 'article',
       type: 'text',
-      description: 'the post',
     },
     {
-      title: 'Blogs',
-      name: 'blogs',
+      title: 'Blog',
+      name: 'blog',
       type: 'reference',
       to: [{type: 'blog'}],
     },
@@ -40,10 +33,10 @@ export default {
       to: [{type: 'tag'}],
     },
     {
-      title: 'Styleguide',
-      name: 'styleguide',
+      title: 'Check',
+      name: 'check',
       type: 'reference',
-      to: [{type: 'styleguide'}],
+      to: [{type: 'check'}],
     },
   ],
 }

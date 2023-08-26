@@ -1,19 +1,18 @@
 export default {
-  title: 'Check',
-  name: 'check',
+  title: 'Hero',
+  name: 'hero',
   type: 'document',
   fields: [
     {
-      title: 'Name',
-      name: 'name',
+      title: 'Title',
+      name: 'title',
       type: 'string',
       description: 'Make it catchy',
     },
     {
-      title: 'Name',
-      name: 'name',
+      name: 'image',
       type: 'image',
-      description: 'Make it an image',
+      // description: '120 chars',
     },
   ],
 }
