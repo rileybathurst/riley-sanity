@@ -10,8 +10,8 @@ export default {
       description: 'Make it catchy',
     },
     {
-      title: 'Name',
-      name: 'name',
+      title: 'Image',
+      name: 'image',
       type: 'image',
       description: 'Make it an image',
     },
