@@ -5,7 +5,7 @@ export default {
   fields: [
     {
       title: 'Name',
-      name: 'name',
+      name: 'client',
       type: 'string',
       description: 'Make it catchy',
     },
