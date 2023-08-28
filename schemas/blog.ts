@@ -45,5 +45,18 @@ export default {
       type: 'reference',
       to: [{type: 'styleguide'}],
     },
+    {
+      title: 'Image',
+      name: 'image',
+      type: 'image',
+      description: 'homepage hero',
+      fields: [
+        {
+          name: 'altText',
+          type: 'string',
+          title: 'Alt Text',
+        },
+      ],
+    },
   ],
 }

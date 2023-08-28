@@ -10,9 +10,17 @@ export default {
       description: 'Make it catchy',
     },
     {
+      title: 'Image',
       name: 'image',
       type: 'image',
-      // description: '120 chars',
+      description: 'homepage hero',
+      fields: [
+        {
+          name: 'altText',
+          type: 'string',
+          title: 'Alt Text',
+        },
+      ],
     },
   ],
 }
