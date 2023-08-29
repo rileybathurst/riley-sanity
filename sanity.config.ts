@@ -36,6 +36,7 @@ export default defineConfig({
             S.documentTypeListItem('check').title('check'),
             S.documentTypeListItem('styleguide').title('styleguide'),
             S.documentTypeListItem('client').title('client'),
+            S.documentTypeListItem('project').title('project'),
           ]),
     }),
     visionTool(),
