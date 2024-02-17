@@ -29,14 +29,20 @@ export default defineConfig({
               // that we're editing the single instance of the document
               S.document().schemaType('hero').documentId('hero'),
             ),
+            S.listItem()
+              .title('about')
+              .id('about')
+              .child(S.document().schemaType('about').documentId('about')),
 
             // Regular document types
             S.documentTypeListItem('blog').title('blog'),
+            S.documentTypeListItem('budget').title('budget'),
             S.documentTypeListItem('tag').title('tag'),
             S.documentTypeListItem('check').title('check'),
-            S.documentTypeListItem('styleguide').title('styleguide'),
             S.documentTypeListItem('client').title('client'),
             S.documentTypeListItem('project').title('project'),
+            S.documentTypeListItem('service').title('service'),
+            S.documentTypeListItem('styleguide').title('styleguide'),
           ]),
     }),
     visionTool(),

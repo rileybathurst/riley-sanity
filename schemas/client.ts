@@ -50,5 +50,21 @@ export default {
       type: 'reference',
       to: [{type: 'styleguide'}],
     },
+    {
+      title: 'Current',
+      name: 'current',
+      type: 'boolean',
+    },
+    {
+      title: 'Extinct',
+      name: 'extinct',
+      type: 'boolean',
+    },
+    {
+      title: 'Service',
+      name: 'service',
+      type: 'array',
+      of: [{type: 'reference', to: [{type: 'service'}]}],
+    },
   ],
 }
